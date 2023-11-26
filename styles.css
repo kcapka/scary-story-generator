@@ -60,6 +60,7 @@ nav{
 
 .circle.active{
     left: 32px;
+    background-color: lightgray;
 }
 
 .switch.active{
