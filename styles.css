@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+}
+
+/* nav/switch */
+
+nav{
+    position: fixed;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggle-message{
+    display: none;
+    margin-top: 10px;
+    color: black;
+    background-color: darkgray;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.6);
+}
+
+.toggle-message.active{
+    display: block;
+}
+
+.switch{
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 0 8px rgba(0,0,0,0.6);
+    position: relative;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.circle{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: lightgray;
+    filter: drop-shadow(0 0 5px rgba(0,0,0,0.15));
+    transition: 0.3s;
+}
+
+.circle.active{
+    left: 32px;
+}
+
+.switch.active{
+    background-color: #282828;
+}
+
+/* title */
+
+
+#container{
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title h1{
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-family: 'Nosifer', sans-serif;
+}
+
+.title p{
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title img{
+    width: 200px;
+    margin-top: 30px;
+}
+
+.title.active{
+    display: none;
+}
+
+/* story */
+
+#story-container{
+    display: none;
+    color: black;
+    text-shadow: 0 2px 10px white;
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./scary-bkg.png");
+    background-attachment: fixed;
+    padding: 40px 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 90%;
+}
+
+#story-title{
+    font-family: 'Nosifer', sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#author{
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+#story{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.2;
+}
+
+#story-container.active{
+    display: block;
+}
