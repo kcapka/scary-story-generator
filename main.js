@@ -117,7 +117,7 @@ Emptiness.<br><br>
 And finally, words I didn't have time to understand came to me for the last time.<br><br>
 
 "My God, the other driver is dead for sure, his head was torn off by the impact."`;
-let storyOneTitle = "I think I'm Losting My Head";
+let storyOneTitle = "I think I'm Losing My Head";
 let storyOneAuthor = "Posted by S_G_Woodhouse";
 
 let storyTwo = `I love my job but it's getting more difficult as hospitals close or as they shutter their maternity wards; it means long drives and nights out in the rural areas. Eastern Washington State is huge - it’s a 3 hour drive to tiny Garfield County from my home in Yakima.<br><br>
