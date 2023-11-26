@@ -86,12 +86,15 @@ nav{
 
 .title h1{
     margin-bottom: 30px;
+    color: rgb(122, 0, 0);
     margin-top: 50px;
     font-family: 'Nosifer', sans-serif;
 }
 
 .title p{
     width: 200px;
+    font-weight: bold;
+    color: rgb(92, 92, 92);
     font-family: 'Roboto', sans-serif;
 }
 
